@@ -1,0 +1,85 @@
+#言語ファイル
+
+advancement.aluminumutility.get_aluminum=アルミニウム!
+advancement.aluminumutility.get_aluminum.desc=アルミを入手する
+advancement.aluminumutility.get_aluminum_paxel=何なんだコイツ...!
+advancement.aluminumutility.get_aluminum_paxel.desc=アルミのパクセルを作る
+advansment.aluminumutility.root=アルミユーティリティ
+advansment.aluminumutility.root.desc=アルミにまみれてください
+advancement.aluminumutility.create_explosion_tool=(自)爆裂魔法!!
+advancement.aluminumutility.create_explosion_tool.desc=自爆ツールを作る
+advancement.aluminumutility.get_daylight_controller=アルミは時間も制御する
+advancement.aluminumutility.get_daylight_controller.desc=日光制御装置を作る
+advancement.aluminumutility.get_doubling_box=チートです!!
+advancement.aluminumutility.get_doubling_box.desc=倍加箱を作る
+advancement.aluminumutility.get_chaos_ball=エネルギーの塊
+advancement.aluminumutility.get_chaos_ball.desc=カオスボールを作る
+advancement.aluminumutility.get_defence_blessing=守りの加護
+advancement.aluminumutility.get_defence_blessing.desc=守りの加護を作る
+advancement.aluminumutility.get_flying_stone=クリエ飛行
+advancement.aluminumutility.get_flying_stone.desc=アルミ製の飛行石を作る
+advancement.aluminumutility.get_god_blessing=私は完璧な生物だ
+advancement.aluminumutility.get_god_blessing.desc=アルミ神の加護を作る
+
+item.aluminum.name=アルミニウム
+item.elevator.name=エレベーター(?)
+item.compressed_aluminum.0.name=9倍 圧縮アルミ玉
+item.compressed_aluminum.1.name=81倍 圧縮アルミ玉
+item.compressed_aluminum.2.name=729倍 圧縮アルミ玉
+item.compressed_aluminum.3.name=6561倍 圧縮アルミ玉
+item.mahou_chuukan.0.name=火薬の瓶
+item.mahou_chuukan.1.name=火の瓶
+item.fire_tool.name=火のツール
+item.eyesight_enhancer.name=視力増強器
+item.explosion_tool.name=爆発ツール
+item.block_recovery_tool.name=回収ツール [Unstable]
+item.aluminum_amulet.0.name=お守りの石
+item.aluminum_amulet.1.name=お守りの鎖
+item.aluminum_amulet.2.name=アルミのお守り
+item.chaos_ball.name=カオスボール
+item.defence_amulet.name=守りの加護
+item.flying_amulet.name=アルミ製の飛行石
+item.god_amulet.0.name=アルミ神の加護
+item.god_amulet.1.name=壊れかけのアルミ神の加護
+
+item.aluminum_sword.name=アルミの剣 Grade-1
+item.aluminum_sword1.name=アルミの剣 Grade-2
+item.aluminum_sword2.name=アルミの剣 Grade-3
+item.aluminum_sword3.name=アルミの剣 Grade-4
+item.aluminum_sword4.name=アルミの剣 Grade-5
+item.aluminum_sword5.name=アルミの剣 Grade-6
+item.aluminum_pickaxe.name=アルミのツルハシ Grade-1
+item.aluminum_pickaxe1.name=アルミのツルハシ Grade-2
+item.aluminum_pickaxe2.name=アルミのツルハシ Grade-3
+item.aluminum_pickaxe3.name=アルミのツルハシ Grade-4
+item.aluminum_pickaxe4.name=アルミのツルハシ Grade-5
+item.aluminum_pickaxe5.name=アルミのツルハシ Grade-6
+item.aluminum_shovel.name=アルミのシャベル Grade-1
+item.aluminum_shovel1.name=アルミのシャベル Grade-2
+item.aluminum_shovel2.name=アルミのシャベル Grade-3
+item.aluminum_shovel3.name=アルミのシャベル Grade-4
+item.aluminum_shovel4.name=アルミのシャベル Grade-5
+item.aluminum_shovel5.name=アルミのシャベル Grade-6
+item.aluminum_axe.name=アルミの斧 Grade-1
+item.aluminum_axe1.name=アルミの斧 Grade-2
+item.aluminum_axe2.name=アルミの斧 Grade-3
+item.aluminum_axe3.name=アルミの斧 Grade-4
+item.aluminum_axe4.name=アルミの斧 Grade-5
+item.aluminum_axe5.name=アルミの斧 Grade-6
+item.aluminum_paxel.name=アルミのパクセル
+
+tile.aluminum_block.name=アルミニウムブロック
+tile.ep_glowstone.name=耐爆グロウストーン
+tile.ep_aluminium.name=耐爆アルミブロック
+tile.chaos_block.name=カオスブロック
+tile.high_prity_glass.name=高純度ガラス
+tile.atamanowaruihito.name=頭の悪い人
+tile.transparent_block.name=スケルトンブロック
+tile.aluminum_box.name=アルミ箱
+tile.daylight_controller.name=日光制御装置
+tile.lausiv_block.name=らうしぶブロック
+
+itemGroup.alumi=アルミユーティリティ
+
+entity.aluminum_man.name=アルミマン
+entity.lausiv.name=らうしぶ

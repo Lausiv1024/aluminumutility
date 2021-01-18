@@ -1,0 +1,12 @@
+{
+    "parent" : "block/cube",
+    "textures" : {
+        "particle" : "aluminumutility:blocks/daylight_controller_n_side",
+        "up" : "aluminumutility:blocks/daylight_controller_n_top",
+        "down" : "aluminumutility:blocks/daylight_controller_n_bottom",
+        "north" : "aluminumutility:blocks/daylight_controller_n_side",
+        "south" : "aluminumutility:blocks/daylight_controller_n_side",
+        "east" : "aluminumutility:blocks/daylight_controller_n_side",
+        "west" : "aluminumutility:blocks/daylight_controller_n_side"
+    }
+}

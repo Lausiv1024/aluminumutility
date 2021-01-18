@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "#",
+      "A",
+      "B"
+    ],
+    "key": {
+      "#": {
+        "item": "aluminumutility:chaos_block",
+        "data":0
+      },
+      "A":{
+          "item":"aluminumutility:mahou_chuukan",
+          "data": 0
+      },
+      "B" : {
+          "item" : "minecraft:diamond"
+      }
+    },
+    "result": {
+      "item": "aluminumutility:explosion_tool",
+      "data": 0
+    }
+  }

@@ -1,0 +1,21 @@
+{
+    "display": {
+        "title": {"translate": "advansment.aluminumutility.root"},
+        "description": {"translate": "advansment.aluminumutility.root.desc"},
+        "icon": {
+            "item":"aluminumutility:aluminum"
+        },
+        "background": "aluminumutility:textures/blocks/aluminum_block.png",
+        "frame": "task"
+    },
+    "criteria": {
+        "has_crafting_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                {"item": "minecraft:crafting_table"}
+                ]
+            }
+        }
+    }
+}

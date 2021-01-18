@@ -1,0 +1,20 @@
+{
+    "display":{
+        "title": {"translate" : "advancement.aluminumutility.get_daylight_controller"},
+        "description" : {"translate" : "advancement.aluminumutility.get_daylight_controller.desc"},
+        "icon": {
+            "item": "aluminumutility:daylight_controller"
+        }
+    },
+    "parent": "aluminumutility:aluminumutility/get_aluminum",
+    "criteria": {
+        "has_aluminum_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions":{
+                "items":[
+                    {"item": "aluminumutility:daylight_controller"}
+                ]
+            }
+        }
+    }
+}

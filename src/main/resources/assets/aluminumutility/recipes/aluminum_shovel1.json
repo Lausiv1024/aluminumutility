@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "#",
+      "A",
+      "A"
+    ],
+    "key": {
+      "#": {
+        "item": "aluminumutility:aluminum_block",
+        "data":0
+      },
+      "A":{
+          "item":"minecraft:stick",
+          "data": 0
+      }
+    },
+    "result": {
+      "item": "aluminumutility:aluminum_shovel1",
+      "data": 0
+    }
+  }

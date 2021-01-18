@@ -1,0 +1,18 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+      "textures": {
+        "particle": "aluminumutility:blocks/lausiv_block"
+      },
+      "model": "aluminumutility:lausiv_block",
+      "uvlock": false
+    },
+    "variants": {
+      "normal": [{
+  
+      }],
+      "inventory": [{
+  
+      }]
+    }
+  }

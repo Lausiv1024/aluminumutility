@@ -1,0 +1,18 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+      "textures": {
+        "particle": "aluminumutility:blocks/high_prity_glass"
+      },
+      "model": "aluminumutility:high_prity_glass",
+      "uvlock": false
+    },
+    "variants": {
+      "normal": [{
+  
+      }],
+      "inventory": [{
+  
+      }]
+    }
+  }

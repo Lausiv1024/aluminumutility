@@ -1,0 +1,21 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "###",
+        "#W#",
+        "###"
+    ],
+    "key":{
+        "#":{
+            "item": "aluminumutility:aluminum"
+        },
+        "W":{
+            "item":"aluminumutility:god_amulet",
+            "data":1
+        }
+    },
+    "result":{
+        "item":"aluminumutility:god_amulet",
+        "data":0
+    }
+}

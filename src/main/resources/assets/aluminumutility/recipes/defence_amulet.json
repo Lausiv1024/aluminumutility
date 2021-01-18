@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "#A#",
+      "BCB",
+      "#A#"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:diamond"
+      },
+      "A" : {
+          "item":"aluminumutility:compressed_aluminum",
+          "data" : 3
+      },
+      "B" : {
+          "item" :"aluminumutility:compressed_aluminum",
+          "data" : 2
+      },
+      "C" : {
+          "item" : "aluminumutility:chaos_ball"
+      }
+    },
+    "result": {
+      "item": "aluminumutility:defence_amulet",
+      "data": 0
+    }
+  }

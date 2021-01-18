@@ -1,0 +1,21 @@
+{
+    "display":{
+        "title": {"translate" : "advancement.aluminumutility.get_god_blessing"},
+        "description" : {"translate" : "advancement.aluminumutility.get_god_blessing.desc"},
+        "icon": {
+            "item": "aluminumutility:god_amulet"
+        },
+        "frame": "challenge"
+    },
+    "parent": "aluminumutility:aluminumutility/get_chaos_ball",
+    "criteria": {
+        "has_aluminum_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions":{
+                "items":[
+                    {"item": "aluminumutility:god_amulet"}
+                ]
+            }
+        }
+    }
+}

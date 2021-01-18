@@ -1,0 +1,20 @@
+{
+    "display":{
+        "title": {"translate" : "advancement.aluminumutility.get_flying_stone"},
+        "description" : {"translate" : "advancement.aluminumutility.get_flying_stone.desc"},
+        "icon": {
+            "item": "aluminumutility:flying_amulet"
+        }
+    },
+    "parent": "aluminumutility:aluminumutility/get_chaos_ball",
+    "criteria": {
+        "has_aluminum_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions":{
+                "items":[
+                    {"item": "aluminumutility:flying_amulet"}
+                ]
+            }
+        }
+    }
+}

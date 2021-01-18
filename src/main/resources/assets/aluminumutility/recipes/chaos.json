@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "###",
+      "###",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:nether_star",
+        "data":0
+      }
+    },
+    "result": {
+      "item": "aluminumutility:chaos_block",
+      "data": 0
+    }
+  }

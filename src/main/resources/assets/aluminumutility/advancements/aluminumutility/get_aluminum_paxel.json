@@ -1,0 +1,20 @@
+{
+    "display":{
+        "title": {"translate" : "advancement.aluminumutility.get_aluminum_paxel"},
+        "description" : {"translate" : "advancement.aluminumutility.get_aluminum_paxel.desc"},
+        "icon": {
+            "item": "aluminumutility:aluminum_paxel"
+        }
+    },
+    "parent": "aluminumutility:aluminumutility/root",
+    "criteria": {
+        "has_aluminum_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions":{
+                "items":[
+                    {"item": "aluminumutility:aluminum_paxel"}
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "parent": "block/stairs",
+    "textures": {
+        "bottom": "aluminumutility:blocks/aluminum_block",
+        "top": "aluminumutility:blocks/aluminum_block",
+        "side": "aluminumutility:blocks/aluminum_block"
+    }
+}

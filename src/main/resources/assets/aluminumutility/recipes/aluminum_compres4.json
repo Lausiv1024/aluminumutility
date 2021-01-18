@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "aluminumutility:compressed_aluminum",
+      "data":2
+    }
+  },
+  "result": {
+    "item": "aluminumutility:compressed_aluminum",
+    "data": 3
+  }
+}

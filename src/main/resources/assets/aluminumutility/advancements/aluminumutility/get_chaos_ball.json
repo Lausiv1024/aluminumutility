@@ -1,0 +1,21 @@
+{
+    "display":{
+        "title": {"translate" : "advancement.aluminumutility.get_chaos_ball"},
+        "description" : {"translate" : "advancement.aluminumutility.get_chaos_ball.desc"},
+        "icon": {
+            "item": "aluminumutility:chaos_ball"
+        },
+        "frame": "challenge"
+    },
+    "parent": "aluminumutility:aluminumutility/root",
+    "criteria": {
+        "has_aluminum_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions":{
+                "items":[
+                    {"item": "aluminumutility:chaos_ball"}
+                ]
+            }
+        }
+    }
+}

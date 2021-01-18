@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "###",
+      "#A#",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:nether_star",
+        "data":0
+      },
+      "A":{
+        "item":"aluminumutility:high_prity_glass"
+      }
+    },
+    "result": {
+      "item": "aluminumutility:transparent_block",
+      "data": 0
+    }
+  }

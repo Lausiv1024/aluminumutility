@@ -1,0 +1,20 @@
+{
+    "display":{
+        "title": {"translate" : "advancement.aluminumutility.get_aluminum"},
+        "description" : {"translate" : "advancement.aluminumutility.get_aluminum.desc"},
+        "icon": {
+            "item": "aluminumutility:aluminum"
+        }
+    },
+    "parent": "aluminumutility:aluminumutility/root",
+    "criteria": {
+        "has_aluminum_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions":{
+                "items":[
+                    {"item": "aluminumutility:aluminum"}
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+      "textures": {
+        "particle": "aluminumutility:blocks/ep_glowstone"
+      },
+      "model": "aluminumutility:ep_glowstone",
+      "uvlock": false
+    },
+    "variants": {
+      "normal": [{
+  
+      }],
+      "inventory": [{
+  
+      }]
+    }
+  }

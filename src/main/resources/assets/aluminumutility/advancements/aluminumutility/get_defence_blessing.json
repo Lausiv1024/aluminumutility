@@ -1,0 +1,20 @@
+{
+    "display":{
+        "title": {"translate" : "advancement.aluminumutility.get_defence_blessing"},
+        "description" : {"translate" : "advancement.aluminumutility.get_defence_blessing.desc"},
+        "icon": {
+            "item": "aluminumutility:defence_amulet"
+        }
+    },
+    "parent": "aluminumutility:aluminumutility/get_chaos_ball",
+    "criteria": {
+        "has_aluminum_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions":{
+                "items":[
+                    {"item": "aluminumutility:defence_amulet"}
+                ]
+            }
+        }
+    }
+}

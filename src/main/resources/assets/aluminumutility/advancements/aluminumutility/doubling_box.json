@@ -1,0 +1,20 @@
+{
+    "display":{
+        "title": {"translate" : "advancement.aluminumutility.get_doubling_box"},
+        "description" : {"translate" : "advancement.aluminumutility.get_doubling_box.desc"},
+        "icon": {
+            "item": "aluminumutility:doubling_box"
+        }
+    },
+    "parent": "aluminumutility:aluminumutility/root",
+    "criteria": {
+        "has_aluminum_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions":{
+                "items":[
+                    {"item": "aluminumutility:doubling_box"}
+                ]
+            }
+        }
+    }
+}

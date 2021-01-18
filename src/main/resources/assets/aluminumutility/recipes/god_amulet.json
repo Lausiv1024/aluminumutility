@@ -1,0 +1,42 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "AXB",
+      "YEZ",
+      "CXD"
+    ],
+    "key": {
+      "A" : {
+          "item":"aluminumutility:compressed_aluminum",
+          "data" : 0
+      },
+      "B" : {
+          "item" :"aluminumutility:compressed_aluminum",
+          "data" : 1
+      },
+      "C" : {
+          "item" : "aluminumutility:compressed_aluminum",
+          "data": 2
+      },
+      "D" : {
+        "item": "aluminumutility:compressed_aluminum",
+        "data": 3
+      },
+      "E": {
+        "item": "minecraft:ender_eye"
+      },
+      "X": {
+        "item" : "minecraft:blaze_rod"
+      },
+      "Y" : {
+        "item" : "aluminumutility:defence_amulet"
+      },
+      "Z": {
+        "item": "aluminumutility:flying_amulet"
+      }
+    },
+    "result": {
+      "item": "aluminumutility:god_amulet",
+      "data": 0
+    }
+  }

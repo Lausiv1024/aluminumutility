@@ -1,0 +1,18 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+      "textures": {
+        "particle": "aluminumutility:blocks/aluminum_box"
+      },
+      "model": "aluminumutility:aluminum_box",
+      "uvlock": false
+    },
+    "variants": {
+      "normal": [{
+  
+      }],
+      "inventory": [{
+  
+      }]
+    }
+  }

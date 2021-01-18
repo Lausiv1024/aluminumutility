@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "aluminumutility:blocks/doubling_box-side",
+        "down": "aluminumutility:blocks/doubling_box-bottom",
+        "up": "aluminumutility:blocks/doubling_box-top",
+        "north": "aluminumutility:blocks/doubling_box-side",
+        "east": "aluminumutility:blocks/doubling_box-side",
+        "south": "aluminumutility:blocks/doubling_box-side",
+        "west": "aluminumutility:blocks/doubling_box-side"
+    }
+}

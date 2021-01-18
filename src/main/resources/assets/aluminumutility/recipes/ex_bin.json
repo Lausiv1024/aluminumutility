@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " # ",
+      "#A#",
+      " # "
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:glass_pane",
+        "data":0
+      },
+      "A":{
+          "item":"minecraft:gunpowder",
+          "data": 0
+      }
+    },
+    "result": {
+      "item": "aluminumutility:mahou_chuukan",
+      "data": 0
+    }
+  }

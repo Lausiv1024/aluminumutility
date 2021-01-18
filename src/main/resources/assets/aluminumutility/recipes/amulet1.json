@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " # ",
+      "A#A",
+      " # "
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:iron_ingot",
+        "data":0
+      },
+      "A":{
+          "item":"aluminumutility:aluminum"
+      }
+    },
+    "result": {
+      "item": "aluminumutility:aluminum_amulet",
+      "data": 1,
+      "count":8
+    }
+  }

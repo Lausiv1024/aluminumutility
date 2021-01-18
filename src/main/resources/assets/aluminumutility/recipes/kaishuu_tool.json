@@ -1,0 +1,26 @@
+{
+    "type" : "minecraft:crafting_shaped",
+    "pattern" : [
+        "###",
+        "ABA",
+        " C "
+    ],
+    "key" : {
+        "#" : {
+            "item":"aluminumutility:compressed_aluminum",
+            "data":3
+        },
+        "A":{
+            "item":"minecraft:ender_pearl"
+        },
+        "B":{
+            "item":"aluminumutility:chaos_block"
+        },
+        "C":{
+            "item":"minecraft:diamond"
+        }
+    },
+    "result":{
+        "item":"aluminumutility:block_recovery_tool"
+    }
+}

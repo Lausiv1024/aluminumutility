@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "ABC",
+      " # ",
+      " # "
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:diamond",
+        "data":0
+      },
+      "A":{
+          "item":"aluminumutility:aluminum_axe5",
+          "data": 0
+      },
+      "B":{
+        "item":"aluminumutility:aluminum_shovel5"
+      },
+      "C":{
+        "item":"aluminumutility:aluminum_pickaxe5"
+      }
+    },
+    "result": {
+      "item": "aluminumutility:aluminum_paxel",
+      "data": 0
+    }
+  }

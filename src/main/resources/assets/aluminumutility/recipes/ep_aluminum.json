@@ -1,0 +1,14 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients":[
+        {
+            "item":"minecraft:obsidian"
+        },
+        {
+            "item":"aluminumutility:aluminum_block"
+        }
+    ],
+    "result":{
+        "item":"aluminumutility:ep_aluminium"
+    }
+}

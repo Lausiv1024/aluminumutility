@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "#A#",
+      "#B#",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "aluminumutility:aluminum",
+        "data":0
+      },
+      "A":{
+          "item":"minecraft:glowstone_dust",
+          "data": 0
+      },
+      "B":{
+          "item":"minecraft:redstone"
+      }
+    },
+    "result": {
+      "item": "aluminumutility:eyesight_enhancer",
+      "data": 0
+    }
+  }

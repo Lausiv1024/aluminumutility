@@ -1,0 +1,20 @@
+{
+    "display":{
+        "title": {"translate" : "advancement.aluminumutility.create_explosion_tool"},
+        "description" : {"translate" : "advancement.aluminumutility.create_explosion_tool.desc"},
+        "icon": {
+            "item": "aluminumutility:explosion_tool"
+        }
+    },
+    "parent": "aluminumutility:aluminumutility/root",
+    "criteria": {
+        "has_aluminum_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions":{
+                "items":[
+                    {"item": "aluminumutility:explosion_tool"}
+                ]
+            }
+        }
+    }
+}

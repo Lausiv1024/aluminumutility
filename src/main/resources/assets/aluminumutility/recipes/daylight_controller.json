@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "XAX",
+        "XYX",
+        "XBX"
+    ],
+    "key": {
+        "A": {
+            "item":"minecraft:redstone"
+        },
+        "B":{
+            "item":"minecraft:diamond"
+        },
+        "X":{
+            "item":"aluminumutility:compressed_aluminum",
+            "data":2
+        },
+        "Y":{
+            "item":"aluminumutility:chaos_block"
+        }
+    },
+    "result": {
+      "item": "aluminumutility:daylight_controller",
+      "data": 0
+    }
+  }

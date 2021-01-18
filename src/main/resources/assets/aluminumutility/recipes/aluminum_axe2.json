@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "##",
+      "#A",
+      " A"
+    ],
+    "key": {
+      "#": {
+        "item": "aluminumutility:compressed_aluminum",
+        "data":0
+      },
+      "A":{
+          "item":"minecraft:diamond",
+          "data": 0
+      }
+    },
+    "result": {
+      "item": "aluminumutility:aluminum_axe2",
+      "data": 0
+    }
+  }
