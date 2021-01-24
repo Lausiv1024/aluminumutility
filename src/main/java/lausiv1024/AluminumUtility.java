@@ -79,7 +79,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 public class AluminumUtility {
 	public static final String MODID = "aluminumutility";
 	public static final String MODNAME = "Aluminum Utility";
-	public static final String MODVERSION = "2.0";
+	public static final String MODVERSION = "2.0.1";
 
 	public static final Logger LOGGER = LogManager.getLogger(MODID);
 
@@ -321,6 +321,8 @@ public class AluminumUtility {
 		EntityRegistry.registerModEntity(new ResourceLocation("entity_chaos_ball"), EntityChaosBall.class, "entity_chaos_ball", 2, this, 50, 1, true);
 		EntityRegistry.registerModEntity(new ResourceLocation("lausiv"), EntityLausiv.class, "lausiv", 3, this, 50, 1, true, 0x090091, 0);
 		EntityRegistry.addSpawn(AluminuMan.class, 20, 1, 10, EnumCreatureType.MONSTER, OverWorld);
+
+		GameRegistry.registerWorldGenerator(new AluminumboxGenerator(), 0);
 	}
 
 	@SubscribeEvent
