@@ -11,12 +11,14 @@ import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.ai.EntityAIAttackMelee;
 import net.minecraft.entity.ai.EntityAIHurtByTarget;
 import net.minecraft.entity.ai.EntityAINearestAttackableTarget;
+import net.minecraft.entity.ai.EntityAIOpenDoor;
 import net.minecraft.entity.ai.EntityAISwimming;
 import net.minecraft.entity.ai.EntityAIWander;
 import net.minecraft.entity.monster.EntityMagmaCube;
 import net.minecraft.entity.monster.EntityMob;
 import net.minecraft.entity.monster.EntitySlime;
 import net.minecraft.item.ItemStack;
+import net.minecraft.pathfinding.PathNavigateGround;
 import net.minecraft.util.DamageSource;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
@@ -25,9 +27,14 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 public class AluminuMan extends EntityMob {
 	public AluminuMan(World arg0) {
 		super(arg0);
+		if (this.getNavigator() instanceof PathNavigateGround) {
+			PathNavigateGround navigateGround = (PathNavigateGround) this.getNavigator();
+			navigateGround.setBreakDoors(true);
+		}
 		this.tasks.addTask(0, new EntityAISwimming(this));
-		this.tasks.addTask(1, new EntityAIWander(this, 0.8d));
-		this.tasks.addTask(2, new EntityAIAttackMelee(this, 1.2d, true));
+		this.tasks.addTask(1, new EntityAIOpenDoor(this, true));
+		this.tasks.addTask(2, new EntityAIWander(this, 0.8d));
+		this.tasks.addTask(3, new EntityAIAttackMelee(this, 1.2d, true));
 		//this.tasks.addTask(3, new EntityAIMoveTowardsTarget(this, 1.2d, 50));
 		this.targetTasks.addTask(0, new EntityAIHurtByTarget(this, true));
 		this.targetTasks.addTask(1, new EntityAINearestAttackableTarget(this, EntityLiving.class, 10, false, true, new Predicate<EntityLiving>() {
