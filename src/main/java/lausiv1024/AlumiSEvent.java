@@ -26,7 +26,7 @@ public class AlumiSEvent {
 	public void jumpBoost(LivingJumpEvent event) {
 		if (event.getEntity() instanceof EntityPlayer) {
 			EntityPlayer player = (EntityPlayer) event.getEntity();
-			if (player.inventory.hasItemStack(new ItemStack(AluminumUtility.GOD_AMULET))) {
+			if (player.inventory.hasItemStack(new ItemStack(AluminumUtility.GOD_AMULET, 1, 0))) {
 				player.motionY += 0.4f;
 			}
 		}
@@ -38,7 +38,7 @@ public class AlumiSEvent {
 			EntityPlayer player = (EntityPlayer) event.getEntity();
 
 			if (event.getSource().getTrueSource() instanceof EntityLausiv) {
-				if (player.inventory.hasItemStack(new ItemStack(AluminumUtility.GOD_AMULET, 1, 0))) {
+				if (player.inventory.hasItemStack(new ItemStack(AluminumUtility.GOD_AMULET, 1, 0)) || player.inventory.hasItemStack(new ItemStack(AluminumUtility.GOD_AMULET, 1, 2))) {
 					Random random = new Random();
 					int aaa = random.nextInt(100);
 					if (aaa >= 90) {
@@ -46,7 +46,7 @@ public class AlumiSEvent {
 						for (int i = 0;i < stacks.size(); i++) {
 
 							if (stacks.get(i) != null) {
-								if (stacks.get(i).getItem() == AluminumUtility.GOD_AMULET && stacks.get(i).getItemDamage() == 0) {
+								if (stacks.get(i).getItem() == AluminumUtility.GOD_AMULET && (stacks.get(i).getItemDamage() == 0 || stacks.get(i).getItemDamage() == 2)) {
 									if (!player.world.isRemote) {
 										player.inventory.setInventorySlotContents(i, new ItemStack(AluminumUtility.GOD_AMULET, 1, 1));
 									}
@@ -70,7 +70,7 @@ public class AlumiSEvent {
 			}
 
 			if (player.inventory.hasItemStack(new ItemStack(AluminumUtility.DEFENCE_AMULET)) ||
-					player.inventory.hasItemStack(new ItemStack(AluminumUtility.GOD_AMULET))) {
+					player.inventory.hasItemStack(new ItemStack(AluminumUtility.GOD_AMULET, 1, 0)) || player.inventory.hasItemStack(new ItemStack(AluminumUtility.GOD_AMULET, 1, 2))) {
 				event.setCanceled(true);
 			}
 		}
@@ -91,7 +91,7 @@ public class AlumiSEvent {
 
 					if (player.inventory.hasItemStack(new ItemStack(AluminumUtility.DEFENCE_AMULET))) {
 						player.inventory.deleteStack(new ItemStack(AluminumUtility.DEFENCE_AMULET));
-					}else if (player.inventory.hasItemStack(new ItemStack(AluminumUtility.GOD_AMULET, 1, 0))) {
+					}else if (player.inventory.hasItemStack(new ItemStack(AluminumUtility.GOD_AMULET, 1, 0)) || player.inventory.hasItemStack(new ItemStack(AluminumUtility.GOD_AMULET, 1, 2))) {
 
 						NonNullList<ItemStack> stacks = player.inventory.mainInventory;
 
@@ -129,11 +129,11 @@ public class AlumiSEvent {
 	public void playerUpdate(LivingUpdateEvent event) {
 		if (event.getEntity() instanceof EntityPlayer) {
 			EntityPlayer player = (EntityPlayer) event.getEntity();
-			if (player.inventory.hasItemStack(new ItemStack(AluminumUtility.GOD_AMULET)) ||
-					player.inventory.hasItemStack(new ItemStack(AluminumUtility.FLYING_AMULET))) {
+			if (player.inventory.hasItemStack(new ItemStack(AluminumUtility.GOD_AMULET, 1, 0)) ||
+					player.inventory.hasItemStack(new ItemStack(AluminumUtility.FLYING_AMULET)) || player.inventory.hasItemStack(new ItemStack(AluminumUtility.GOD_AMULET, 1, 2))) {
 				player.capabilities.allowFlying = true;
-				if (player.isSprinting() && player.moveForward > 0f && player.inventory.hasItemStack(
-						new ItemStack(AluminumUtility.GOD_AMULET, 1, 0))) {
+				if (player.isSprinting() && player.moveForward > 0f && (player.inventory.hasItemStack(
+						new ItemStack(AluminumUtility.GOD_AMULET, 1, 0)) || player.inventory.hasItemStack(new ItemStack(AluminumUtility.GOD_AMULET, 1, 2)))) {
 					player.capabilities.setFlySpeed(0.2f);
 				}else {
 					player.capabilities.setFlySpeed(0.05f);

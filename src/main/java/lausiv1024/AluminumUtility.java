@@ -79,7 +79,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 public class AluminumUtility {
 	public static final String MODID = "aluminumutility";
 	public static final String MODNAME = "Aluminum Utility";
-	public static final String MODVERSION = "2.0.1";
+	public static final String MODVERSION = "2.0.2";
 
 	public static final Logger LOGGER = LogManager.getLogger(MODID);
 

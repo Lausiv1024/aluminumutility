@@ -124,5 +124,7 @@ public class ModelRegister {
 				new ModelResourceLocation(new ResourceLocation(AluminumUtility.MODID, "broken_god_amulet"), inv));
 		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(AluminumUtility.LAUSIV_BLOCK), 0,
 				new ModelResourceLocation(new ResourceLocation(AluminumUtility.MODID, "lausiv_block"), inv));
+		ModelLoader.setCustomModelResourceLocation(AluminumUtility.GOD_AMULET, 2,
+				new ModelResourceLocation(new ResourceLocation(AluminumUtility.MODID, "god_amulet_2"), inv));
 	}
 }
